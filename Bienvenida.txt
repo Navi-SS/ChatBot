@@ -1,0 +1,5 @@
+Hola! Soy el Bot de la casa del Arbolito.
+Aqui podras encargar tu torta.
+Contamos con un horario de atencion de 11:00 a 21:00
+de Lunes a Viernes
+Por donde empezar /help

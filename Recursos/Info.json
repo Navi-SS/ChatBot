@@ -1,0 +1,76 @@
+{
+    "horario":"11:00-21:00",
+    "dias":"Lunes a Viernes",
+    "celular":"7223575299",
+    "menu":{
+        "tortas":[
+            {"nombre":"Torta Jamon","precio": "20.00"},
+            {"nombre":"Torta Pierna","precio": "20.00"},
+            {"nombre":"Torta Queso de Puerco","precio": "20.00"},
+            {"nombre":"Torta Salchica","precio": "20.00"},
+            {"nombre":"Torta Milanesa","precio": "30.00"},
+            {"nombre":"Torta Hawaiana","precio": "33.00"},
+            {"nombre":"Torta Cubana","precio": "50.00"}
+        ],
+        "ingredientes":[
+            {"nombre":"Jamon","precio": "5.00"},
+            {"nombre":"Pierna","precio": "5.00"},
+            {"nombre":"Queso de Puerco","precio": "5.00"},
+            {"nombre":"Salchica","precio": "5.00"},
+            {"nombre":"Milanesa","precio": "5.00"}
+        ],
+        "aperitivos":[
+            {"nombre":"Sandwich","precio":"25.00"},
+            {"nombre":"Papas a la Francesa","precio":"25.00"},
+            {"nombre":"Hotdog","precio":"25.00"},
+            {"nombre":"Hotdog con Tocino","precio":"25.00"},
+            {"nombre":"Sincronizada","precio":"15.00"},
+            {"nombre":"Sincronizada con Verdura","precio":"20.00"},
+            {"nombre":"Conctel de Frutas","precio":"30.00"},
+            {"nombre":"Verduras al vapor","precio":"30.00"},
+            {"nombre":"Cuernitos","precio":"20.00"}
+        ],
+        "desayunos":[
+            {"nombre":"Chilaquiles con Milanesa","precio": "40.00"},
+            {"nombre":"Chilauqiles con Huevo","precio": "40.00"},
+            {"nombre":"Molletes","precio": "30.00"},
+            {"nombre":"Enchiladas","precio": "30.00"},
+            {"nombre":"Huevo","precio": "35.00"},
+            {"nombre":"Huevo con Frijoles","precio": "35.00"}
+        ],
+        "hamburguesas":[
+            {"nombre":"Sencilla","precio":"35.00"},
+            {"nombre":"Doble","precio":"45.00"},
+            {"nombre":"Especial","precio":"55.00"}
+        ],
+        "bebidas":[
+            {"nombre":"Licuado Fresa","precio":"20.00"},
+            {"nombre":"Licuado de Platano","precio":"20.00"},
+            {"nombre":"Licuado de Manzana","precio":"20.00"},
+            {"nombre":"Licuado de Guayaba","precio":"20.00"},
+            {"nombre":"Coca-Cola","precio":"15.00"}
+        ],
+        "postres":[
+            {"nombre":"Pay de Limon","precio":"13"},
+            {"nombre":"Congelada de Galleta Oreo","precio":"10"},
+            {"nombre":"Maruchan","precio":"15"},
+            {"nombre":"Cafe Instantaneo","precio":"15"},
+            {"nombre":"Chicharron preparado","precio":"15"}
+        ],
+        "comida_corrida":{
+            "precio":"50",
+            "guiso_del_dia":"Calabazas",
+            "platillos":[
+                "Plato de Milanesa",
+                "Huevos",
+                "Bistec"
+            ],
+            "complementos":[
+                "Arroz o Sopa",
+                "Tortillas",
+                "Frijoles",
+                "Agua"
+            ]
+        }
+    }
+}
