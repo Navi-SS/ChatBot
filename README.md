@@ -3,6 +3,17 @@
 ## Introduccion
 ChatBot desarrollado en python implementado en Telegram, que permite generar ordenes para el negocio de Tortas el Arbolito
 
+## Ejecutar el proyecto
+Necesitaras tener instalado las librerias descritas en el documento Requirements.txt
+```
+pip install -r Requirements.txt
+```
+
+Una vez instaladas las librerias basta con ejecutar el siguiente comando
+```
+python ClapTrap.py
+```
+
 ## Comandos
 Los comandos se dividen en dos partes, los que atienden al cliente y al negocio
 ### Cliente
