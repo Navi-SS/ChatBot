@@ -90,11 +90,31 @@ Orden Cancelada
 ```
 
 ### Negocio
-_/help_
+__/pedidos__:Lista los pedidos generados
 ```
-Podiras comenzar mirando nuestros menus, seguro te agrada algo /menu
+Estos son los pedidos activos
+
+Pedido #1009
+Torta Pierna $20.00
+Torta Jamon $20.00
+Torta Queso de Puerco $20.00
+Torta Jamon $20.00
+Total: $80.0
+/finalizar_orden_1009
+
+Pedido #1010
+Torta Pierna $20.00
+Torta Queso de Puerco $20.00
+Torta Salchica $20.00
+Total: $60.0
+/finalizar_orden_1010
 ```
+__/finalizar_orden_*__
+```
+Negocio:
+Notificando al usuario
 
-##
+Usuario:
+Tu orden esta lista.
 
-##
+```
