@@ -6,7 +6,7 @@ ChatBot desarrollado en python implementado en Telegram, que permite generar ord
 ## Comandos
 Los comandos se dividen en dos partes, los que atienden al cliente y al negocio
 ### Cliente
-_/start_
+__/start__:Muestra una breve introduccion
 ```
 Hola! Soy el Bot de la casa del Arbolito.
 Aqui podras encargar tu torta.
@@ -14,12 +14,12 @@ Contamos con un horario de atencion de 11:00 a 21:00
 de Lunes a Viernes
 Por donde empezar /help
 ```
-_/help_
+__/help__:Te sugiere por donde comenzar
 ```
 Podiras comenzar mirando nuestros menus, seguro te agrada algo /menu
 ```
 
-_/menu_
+__/menu__:Muestra el menu del negocio
 ```
 Conoce nuestro menu!
 /tortas
@@ -29,8 +29,7 @@ Conoce nuestro menu!
 /postres
 ```
 
-_/tortas_
-Cada comando listado anteriormnete genera un menu nuevo, estos comandos dependen de los prodcutos dados de alta.
+__/tortas__:Cada comando listado anteriormnete genera un menu nuevo, estos comandos dependen de los prodcutos dados de alta.
 ```
 Contamos con:
 Torta Jamon $20.00
@@ -46,8 +45,7 @@ Te gustaria ordenar? /ordenar_tortas
 Volver al menu /menu
 
 ```
-__/ordenar_tortas__
-Genera un teclado con las opciones encontradas
+__/ordenar_tortas__:Genera un teclado con las opciones encontradas
 ```
 Torta Jamon
 Torta Pierna
@@ -59,8 +57,7 @@ Torta Cubana
 Quitar Teclado
 ```
 
-__/mi_pedido__
-Muestra la orden generada de los productos agregados
+__/mi_pedido__:Muestra la orden generada de los productos agregados
 ```
 Este es el pedido: 
 Torta Pierna $20.00
@@ -73,7 +70,7 @@ Cancelar pedido: /cancelar_pedido
 Agregar mas cosas: /menu
 ```
 
-__/confirmar_pedido__
+__/confirmar_pedido__:Genera el pedido y se le notifica al usuario
 ```
 Clinete:
 Ya hice el pedido
@@ -87,7 +84,7 @@ Torta Jamon $20.00
 Total: $80.0
 ```
 
-__/cancelar_pedido__
+__/cancelar_pedido__:Cancela el pedido
 ```
 Orden Cancelada
 ```
